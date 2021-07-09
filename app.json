@@ -1,0 +1,26 @@
+{
+  "name": "Linkin",
+  "repository": "https://github.com/RizkyRajitha/linkin",
+  "description": "Linkin is a customizable self hosted link tree application",
+  "logo": "https://res.cloudinary.com/dijjqfsto/image/upload/v1621666671/linkin_logo_1_jcuvr3.png",
+  "keywords": [
+    "next",
+    "serverless",
+    "linkinthebio",
+    "javascript",
+    "js",
+    "react",
+    "node",
+    "postgres"
+  ],
+  "env": {
+    "HASHSALT": {
+      "description": "Random secret HASHSALT for JWT and password encryption",
+      "value": ""
+    },
+    "DATABASE_URL": {
+      "description": "Postgres database url",
+      "value": ""
+    }
+  }
+}

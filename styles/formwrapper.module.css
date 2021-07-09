@@ -1,0 +1,21 @@
+.dashform {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 60vw;
+  /* background: #1c8ef9 !important; */
+  overflow-y: scroll;
+}
+
+.logoutbtn {
+  margin: 10px;
+}
+
+.buttongroupbg {
+  background-color: #fff;
+}
+@media (max-width: 768px) {
+  .dashform {
+    width: 100vw;
+  }
+}
